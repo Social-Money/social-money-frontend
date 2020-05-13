@@ -10,11 +10,19 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Social Money',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: '实现独立于平台的网络价值' },
+      { hid: 'keywords', name: 'keywords', content: 'Social Money,社交,以太坊,去中心化,DApp,价值' },
+      /* <!--  Meta for OpenGraph --> */
+      { hid: 'og:type', name: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:site_name', name: 'og:site_name', property: 'og:site_name', content: '实现独立于平台的网络价值' },
+      { hid: 'og:title', property: 'og:title', content: '实现独立于平台的网络价值' },
+      { hid: 'og:image', name: 'og:image', property: 'og:image', content: 'https://ssimg.frontenduse.top/avatar/2019/08/30/c1d6ae7ed4e6102cb45d0a8f656d5569.png' },
+      { hid: 'og:description', name: 'description', property: 'og:description', content: '实现独立于平台的网络价值' },
+      { hid: 'og:type', name: 'og:type', property: 'og:type', content: 'article' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
