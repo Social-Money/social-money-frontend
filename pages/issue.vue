@@ -24,7 +24,13 @@
             <h5 class="section-heading">
               total supply
             </h5>
-            <input class="disabled" type="text" disabled placeholder="请输入soical money的total supply" value="21000">
+            <input class="disabled" type="text" disabled placeholder="请输入soical money的total supply" value="21000000">
+          </div>
+          <div class="col-12 card row-label">
+            <h5 class="section-heading">
+              decimals
+            </h5>
+            <input class="disabled" type="text" disabled placeholder="请输入soical money的total supply" value="4">
           </div>
         </div>
         <div class="product-select">
