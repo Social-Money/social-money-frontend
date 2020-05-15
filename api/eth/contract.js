@@ -3,8 +3,8 @@ import SocialMoneyFactoryJsonData from './SocialMoneyFactory.json'
 import SocialMoneyJsonData from './SocialMoney.json'
 import UniswapFactoryABI from './uniswap_factory.json'
 
-const factoryAddress = '0x57DAE729e185B0b7e22636F6d4D3214c800C086b' // THE CONTRACT ADDRESS
-const uniswapFactoryAddress = '0x09cc1a1c32b4adcff81fa3b44a142d6e023bc2eb' // THE CONTRACT ADDRESS
+const factoryAddress = '0x9d21FDB292e69F3EF3d5De96D92248d314003fca' // THE CONTRACT ADDRESS
+const uniswapFactoryAddress = '0xc4d477bcf1578ebf4dee2318e19ab7649a83f5bb' // THE CONTRACT ADDRESS
 
 export default {
   factoryContractInstance() {

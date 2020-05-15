@@ -97,7 +97,7 @@
               class="menu-item menu-item-type-post_type menu-item-object-page"
               :class="{ 'current-menu-item': page === 'trade' }"
               target=""
-              href=""
+              :href="uniswapURL"
             >
               🦄 trade<span class="hover-indicator">
                 <svg
@@ -148,13 +148,15 @@
 </template>
 <script>
 import Web3Status from './Web3Status'
+import consts from '@/utils/consts'
 export default {
   components: {
     Web3Status
   },
   data() {
     return {
-      page: ''
+      page: '',
+      uniswapURL: consts.uniswapURL
     }
   },
   computed: {
