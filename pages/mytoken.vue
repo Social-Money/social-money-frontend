@@ -36,7 +36,7 @@
             <h5 class="section-heading">
               exchange address:
               <template v-if="noExchange"> 未上uniswap交易所 </template>
-              <template v-else>{{ exchangeAddress }}</template>
+              <template v-else>{{ token.exchangeAddress }}</template>
             </h5>
           </div>
         </div>
